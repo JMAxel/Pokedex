@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+		<link rel="icon" type="png" href="pokeball_icon_136305 (1).png">
+		<title>Pokédex</title>
+
+		<link rel="stylesheet" href="styles.css"/>
+
+		<script defer src="script.js"></script>
+	</head>
+	<body>
+		<main>
+			<div class="container-shadow"></div>
+			<div class="container">
+				<form role="search" id="search-form">
+					<input type="text" name="pokemon" id="search-input" placeholder="Name or ID" required/>
+					<button id="search-button"><img src="lupa.png" alt="lupa"></button>
+				</form>
+			</div>
+			<div class="display" id="banner">
+				<div class="white-circle">
+					<div id="sprite"></div>
+				</div>
+			</div>
+			<div class="basic-info">
+				<div class="name-and-id">
+					<span id="pokemon-name">Welcome!</span>
+					<span id="pokemon-id">#00000</span>
+				</div>
+				<div id="types"></div>
+			</div>
+			<div class="body">
+				<div class="body-info">
+					<span class="body-number" id="height">100</span>
+					<p class="body-description">Height</p>
+				</div>
+				<div class="body-info">
+					<span class="body-number" id="weight">1000</span>
+					<p class="body-description">Weight</p>
+				</div>
+			</div>
+			<div class="info">
+				<span id="base-stats">Base Stats:</span>
+				<table>
+					<tr>
+						<td>HP:</td>
+                		<td id="hp" class="bar">
+							<div class="progress" id="progressHP">&emsp;</div>
+						</td>
+					</tr>
+					<tr>
+						<td>ATK:</td>
+                		<td id="attack" class="bar">
+							<div class="progress" id="progressAttack">&emsp;</div>
+						</td>
+					</tr>
+					<tr>
+						<td>DEF:</td>
+                		<td id="defense" class="bar">
+							<div class="progress" id="progressDefense">&emsp;</div>
+						</td>
+					</tr>
+					<tr>
+						<td>SP. ATK:</td>
+               			<td id="special-attack" class="bar">
+							<div class="progress" id="progressSpAttack">&emsp;</div>
+						</td>
+					</tr>
+					<tr>
+						<td>SP. DEF:</td>
+                		<td id="special-defense" class="bar">
+							<div class="progress" id="progressSpDefense">&emsp;</div>
+						</td>
+					</tr>
+					<tr>
+						<td>SPD:</td>
+                		<td id="speed" class="speed bar">
+							<div class="progress" id="progressSpeed">&emsp;</div>
+						</td>
+					</tr>
+				</table>
+			</div>
+			<div class="guide">
+				<button class="button" id="prev">Prev &lt;</button>
+				<button class="button" id="next">Next &gt;</button>
+			</div>
+			<img class="pokeball" src="pokeball_icon_136305 (1).png" alt="pokeball icon">
+		</main>
+	</body>
+</html>
