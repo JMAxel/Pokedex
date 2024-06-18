@@ -212,8 +212,8 @@ const	getPokemon = async (ID) =>
 		}
 
 		//Setting Height and Weight
-		height.textContent = data.height;
-		weight.textContent = data.weight;
+		height.textContent = (data.height / 10);
+		weight.textContent = (data.weight / 10);
 
 		//Setting Base Stats
 		setBase(data, dataTypes[0]);
