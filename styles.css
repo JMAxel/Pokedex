@@ -12,6 +12,7 @@ body {
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
+	overflow-x: hidden;
 }
 
 main {
@@ -152,6 +153,12 @@ main {
 @media only screen and (max-width: 1440px) {	
 	.name-and-id {
 		transform: translate(-50%, -130%);
+	}
+}
+
+@media only screen and (max-width: 426px) {	
+	.name-and-id {
+		transform: translate(-50%, -135%);
 	}
 }
 
@@ -318,6 +325,13 @@ tr {
 	}
 }
 
+@media only screen and (max-width: 426px) {	
+	.guide {
+		margin-left: 1.7em;
+		gap: 15em;
+	}
+}
+
 .button {
 	width: 50%;
 	padding: 4%;
@@ -351,10 +365,10 @@ tr {
 	}
 }
 
-@media only screen and (max-width: 768px) {	
+@media only screen and (max-width: 426px) {	
 	.pokeball {
-		margin-top: 3em;
-		margin-right: 5px
+		margin-top: 2em;
+		margin-right: 4px;
 	}
 }
 
