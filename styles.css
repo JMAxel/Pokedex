@@ -21,6 +21,13 @@ main {
 	padding-top: 40px;
 }
 
+@media only screen and (max-width: 480px) {	
+	main {
+		padding-top: 10px;
+		padding-left: 50px;
+	}
+}
+
 .container {
 	width: 400px;
 	margin: 25px 0;
@@ -96,6 +103,12 @@ main {
 	}
 }
 
+@media only screen and (max-width: 480px) {	
+	.display {
+		border-radius: 0;
+	}
+}
+
 .white-circle {
 	position: relative;
 	background-color: rgba(255, 255, 255, 0.5);
@@ -127,6 +140,12 @@ main {
 @media only screen and (max-width: 1920px) {	
 	.basic-info {
 		padding: 50px 290px 850px;
+	}
+}
+
+@media only screen and (max-width: 480px) {	
+	.basic-info {
+		padding: 50px 290px 880px;
 	}
 }
 
@@ -246,6 +265,13 @@ main {
 	padding: 150px;
 }
 
+@media only screen and (max-width: 480px) {	
+	#base-stats {
+		margin-left: 100px;
+		padding: 0px;
+	}
+}
+
 table {
 	margin-top: 25px;
 	width: 100%;
@@ -290,6 +316,13 @@ tr {
 	}
 }
 
+@media only screen and (max-width: 480px) {	
+	.guide {
+		margin-top: 890px;
+		margin-right: 60px;
+	}
+}
+
 .button {
 	width: 50%;
 	padding: 4%;
@@ -320,6 +353,13 @@ tr {
 @media only screen and (max-width: 1920px) {	
 	.pokeball {
 		margin-top: 23px;
+	}
+}
+
+@media only screen and (max-width: 480px) {	
+	.pokeball {
+		margin-top: 40px;
+		margin-right: 5px
 	}
 }
 
