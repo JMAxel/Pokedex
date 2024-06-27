@@ -24,7 +24,7 @@ main {
 @media only screen and (max-width: 480px) {	
 	main {
 		padding-top: 10px;
-		padding-left: 50px;
+		padding-left: 5em;
 	}
 }
 
@@ -267,7 +267,7 @@ main {
 
 @media only screen and (max-width: 480px) {	
 	#base-stats {
-		margin-left: 100px;
+		margin-left: 5.5rem;
 		padding: 0px;
 	}
 }
@@ -282,6 +282,7 @@ table {
 
 tr {
 	margin-bottom: 20px;
+	white-space: nowrap;
 }
 
 .bar {
@@ -320,6 +321,7 @@ tr {
 	.guide {
 		margin-top: 890px;
 		margin-right: 60px;
+		gap: 20em;
 	}
 }
 
@@ -358,7 +360,7 @@ tr {
 
 @media only screen and (max-width: 480px) {	
 	.pokeball {
-		margin-top: 40px;
+		margin-top: 3em;
 		margin-right: 5px
 	}
 }
