@@ -28,12 +28,6 @@ main {
 	}
 }
 
-@media only screen and (max-width: 426px) {	
-	main {
-		padding-left: 4em;
-	}
-}
-
 .container {
 	width: 400px;
 	margin: 25px 0;
@@ -339,7 +333,8 @@ tr {
 
 @media only screen and (max-width: 426px) {	
 	.guide {
-		margin-left: 1em;
+		gap: 15em;
+		margin-left: 1.5em;
 	}
 }
 
@@ -379,6 +374,7 @@ tr {
 @media only screen and (max-width: 426px) {	
 	.pokeball {
 		margin-top: 2em;
+		margin-right: 0.8em;
 	}
 }
 
