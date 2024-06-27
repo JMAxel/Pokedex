@@ -21,10 +21,9 @@ main {
 	padding-top: 40px;
 }
 
-@media only screen and (max-width: 480px) {	
+@media only screen and (max-width: 768px) {	
 	main {
 		padding-top: 10px;
-		padding-left: 5em;
 	}
 }
 
@@ -97,15 +96,9 @@ main {
 	z-index: 1;
 }
 
-@media only screen and (max-width: 1920px) {	
+@media only screen and (max-width: 1440px) {	
 	.display {
 		padding: 30px 220px;
-	}
-}
-
-@media only screen and (max-width: 480px) {	
-	.display {
-		border-radius: 0;
 	}
 }
 
@@ -137,13 +130,13 @@ main {
 	z-index: 0;
 }
 
-@media only screen and (max-width: 1920px) {	
+@media only screen and (max-width: 1440px) {	
 	.basic-info {
 		padding: 50px 290px 850px;
 	}
 }
 
-@media only screen and (max-width: 480px) {	
+@media only screen and (max-width: 768px) {	
 	.basic-info {
 		padding: 50px 290px 880px;
 	}
@@ -156,7 +149,7 @@ main {
 	transform: translate(-50%, -140%);
 }
 
-@media only screen and (max-width: 1920px) {	
+@media only screen and (max-width: 1440px) {	
 	.name-and-id {
 		transform: translate(-50%, -130%);
 	}
@@ -197,7 +190,7 @@ main {
 	gap: 10px;
 }
 
-@media only screen and (max-width: 1920px) {	
+@media only screen and (max-width: 1440px) {	
 	#types {
 		transform: translate(-50%, -320%);
 	}
@@ -234,7 +227,7 @@ main {
 	text-align: center;
 }
 
-@media only screen and (max-width: 1920px) {	
+@media only screen and (max-width: 1440px) {	
 	.body-number {
 		transform: translate(0%, 490%);
 	}
@@ -247,7 +240,7 @@ main {
 	color: #bbbbbb;
 }
 
-@media only screen and (max-width: 1920px) {	
+@media only screen and (max-width: 1440px) {	
 	.body-description {
 		margin-top: 670px;
 	}
@@ -265,7 +258,7 @@ main {
 	padding: 150px;
 }
 
-@media only screen and (max-width: 480px) {	
+@media only screen and (max-width: 768px) {	
 	#base-stats {
 		margin-left: 5.5rem;
 		padding: 0px;
@@ -311,13 +304,13 @@ tr {
 	gap: 350px;
 }
 
-@media only screen and (max-width: 1920px) {	
+@media only screen and (max-width: 1440px) {	
 	.guide {
 		margin-top: 870px;
 	}
 }
 
-@media only screen and (max-width: 480px) {	
+@media only screen and (max-width: 768px) {	
 	.guide {
 		margin-top: 890px;
 		margin-right: 60px;
@@ -352,13 +345,13 @@ tr {
 	z-index: 0;
 }
 
-@media only screen and (max-width: 1920px) {	
+@media only screen and (max-width: 1440px) {	
 	.pokeball {
 		margin-top: 23px;
 	}
 }
 
-@media only screen and (max-width: 480px) {	
+@media only screen and (max-width: 768px) {	
 	.pokeball {
 		margin-top: 3em;
 		margin-right: 5px
